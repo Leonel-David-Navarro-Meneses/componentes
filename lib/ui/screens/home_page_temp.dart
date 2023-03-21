@@ -1,7 +1,9 @@
 import 'package:componentes/providers/menu_provider.dart';
 import 'package:flutter/material.dart';
+import 'package:componentes/utils/icons_mapping.dart';
 
 class HomePageTemp extends StatelessWidget {
+  final IconMapping iconMap = const IconMapping();
   const HomePageTemp({super.key});
 
   @override
@@ -39,14 +41,12 @@ Widget _lista() {
 
 List<Widget> _listaItems(List<dynamic> data) {
   final List<Widget> opciones = [];
+  IconMapping iconMap = const IconMapping();
 
   data.forEach((opt) {
     final tile = ListTile(
       title: Text(opt['texto']),
-      leading: const Icon(
-        Icons.account_box,
-        color: Color.fromARGB(255, 255, 0, 0),
-      ),
+      leading: iconMap.getIcon(opt['icon']),
       trailing: const Icon(
         Icons.keyboard_arrow_right,
         color: Colors.blue,

@@ -10,7 +10,7 @@
         },
     {
         "ruta" : "inputs",
-        "icon" : "inputs",
+        "icon" : "input",
         "texto" : "Tarma Roving",
          "texto2" : "aqui entran los datos"
     },
@@ -22,21 +22,21 @@
     },
     {
         "ruta" : "firebase",
-        "icon" : "add_data",
+        "icon" : "data",
         "texto" : "Firebase Storage",
         "texto2" : "la base de datos"
     },
     {
-        "ruta" : "camara",
-        "icon" : "camara",
-        "texto" : "tomar foto",
+        "ruta" : "listas",
+        "icon" : "list",
+        "texto" : "listas variadas",
         "texto2" : "di wiski XD"
     },
     {
-        "ruta" : "Metal Slug",
-        "icon" : "tank",
-        "texto" : "Metal Slug 8",
-        "texto2" : "Regular Army"  
+        "ruta" : "Camara",
+        "icon" : "camera",
+        "texto" : "toma fotos",
+        "texto2" : "fotosss"  
     }
     
     ]
