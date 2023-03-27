@@ -7,7 +7,7 @@ class AlertsScreen extends StatelessWidget {
     showDialog(
         context: context,
         barrierDismissible: false,
-        barrierColor: Colors.red,
+        barrierColor: const Color.fromARGB(255, 255, 251, 0),
         builder: (context) {
           return AlertDialog(
             backgroundColor: const Color.fromARGB(255, 255, 0, 0),
@@ -27,10 +27,10 @@ class AlertsScreen extends StatelessWidget {
             actions: [
               TextButton(
                   onPressed: () => Navigator.of(context).pop(),
-                  child: const Text('aceptar')),
+                  child: const Text('Aceptar')),
               TextButton(
                   onPressed: () => Navigator.of(context).pop(),
-                  child: const Text('cancelar')),
+                  child: const Text('Cancelar')),
             ],
           );
         });
